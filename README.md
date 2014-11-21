@@ -1,4 +1,8 @@
-34--Angularize-me-Capn
+Group Members
 ======================
 
-Beer me!
+* Ally Hinton
+* Jon Manock
+* Nick Hare
+* Alex Soper
+
