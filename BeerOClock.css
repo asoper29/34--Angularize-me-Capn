@@ -73,6 +73,14 @@ body h1 {
 		height: 21px;
 	}
 
+	body > div.button > center > button:hover { 
+		-moz-box-shadow: 0 0 10px #ccc; 
+		-webkit-box-shadow: 0 0 10px #ccc; 
+		box-shadow: 0 0 10px #ccc; 
+	}
+
+	
+
 	body > div.container > form > div:nth-child(2) > h2 {
 		margin-top: 8px;
 		margin-bottom: 0px;
@@ -82,5 +90,6 @@ body h1 {
 		margin-bottom: 0px;
 		margin-top: 0px;
 	}
+
 
 /*# sourceMappingURL=BeerOClock.css.map */
