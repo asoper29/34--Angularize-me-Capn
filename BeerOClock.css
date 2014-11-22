@@ -7,4 +7,50 @@ body h1 {
   margin-left: 566px;
   font-size: 40px; }
 
+  #usr {
+		width: 187px;
+		height: 21px;
+		padding-left: 600px;
+		width: 200px;
+   		padding: 20px;
+    	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    	box-sizing: border-box; 
+	}
+
+	#pwd {
+		width: 187px;
+		height: 21px;
+		padding-left: 600px;
+		width: 200px;
+   		padding: 20px;
+    	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    	box-sizing: border-box; 
+
+	}
+
+	body > div > form > div:nth-child(1) > h2 > label {
+	  	font-family: 'Courgette', cursive;
+		font-size: 20px;
+		padding-left: 666px;
+	}
+
+	body > div > form > div:nth-child(2) > h2 > label {
+		font-family: 'Courgette', cursive;
+		font-size: 20px;
+		padding-left: 666px;
+	}
+
+	body > button {
+		font-family: 'Courgette', cursive;
+		font-size: 20px;
+		padding-left: 600px;
+		width: 200px;
+   		padding: 20px;
+    	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    	box-sizing: border-box; 
+	}
+
 /*# sourceMappingURL=BeerOClock.css.map */
