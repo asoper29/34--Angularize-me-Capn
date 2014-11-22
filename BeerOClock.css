@@ -1,3 +1,7 @@
+body {
+	margin: 0px;
+}
+
 body header img {
   margin-left: 596px;
   width: 233px;
@@ -10,9 +14,10 @@ body h1 {
   #usr {
 		width: 187px;
 		height: 21px;
-		padding-left: 600px;
 		width: 200px;
    		padding: 20px;
+   		float: center;
+   		border-radius: 15px;
     	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
     	box-sizing: border-box; 
@@ -21,9 +26,11 @@ body h1 {
 	#pwd {
 		width: 187px;
 		height: 21px;
-		padding-left: 600px;
 		width: 200px;
    		padding: 20px;
+   		padding-bottom: 20px;
+   		float: center;
+   		border-radius: 15px;
     	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
     	box-sizing: border-box; 
@@ -42,15 +49,38 @@ body h1 {
 		padding-left: 666px;
 	}
 
-	body > button {
-		font-family: 'Courgette', cursive;
-		font-size: 20px;
-		padding-left: 600px;
-		width: 200px;
-   		padding: 20px;
-    	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    	box-sizing: border-box; 
+	header {
+		background-color: black;
+		padding-top: 20px;
+		padding-bottom: 18px;
+	}
+	
+	body > div.button > center > button {
+	  	font-family: 'Courgette', cursive;
+	}
+	
+	body > footer > p {
+		background-color: black;
+		margin: 0px;
+		height: 20px;
+	}
+	body > div.button {
+		padding-top: 6px;
+	}
+
+	body > div.button > center > button {
+		width: 100px;
+		height: 21px;
+	}
+
+	body > div.container > form > div:nth-child(2) > h2 {
+		margin-top: 8px;
+		margin-bottom: 0px;
+	}
+	
+	body > div.container > form > div:nth-child(1) > h2 {
+		margin-bottom: 0px;
+		margin-top: 0px;
 	}
 
 /*# sourceMappingURL=BeerOClock.css.map */
