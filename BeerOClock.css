@@ -1,3 +1,10 @@
-
+body header img {
+  margin-left: 596px;
+  width: 233px;
+  height: 400px; }
+body h1 {
+  font-family: 'Dancing Script', cursive;
+  margin-left: 566px;
+  font-size: 40px; }
 
 /*# sourceMappingURL=BeerOClock.css.map */
