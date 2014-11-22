@@ -1,9 +1,32 @@
-'use strict';
+/*gulpfile with livereload */
+var gulp = require('gulp'),
+connect = require('gulp-connect');
 
-var gulp = require('gulp');
-
-require('require-dir')('./gulp');
-
-gulp.task('default', ['clean'], function () {
-    gulp.start('build');
+gulp.task('connect', function() {
+  connect.server({
+    livereload: true
+  });
 });
+
+gulp.task('html', function () {
+  gulp.src('./*.html')
+  .pipe(connect.reload());
+});
+
+gulp.task('css', function () {
+  gulp.src('./*.css')
+  .pipe(connect.reload());
+});
+
+gulp.task('js', function () {
+  gulp.src('./*.js')
+  .pipe(connect.reload());
+});
+
+gulp.task('watch', function () {
+  gulp.watch(['./*.html'], ['html']);
+  gulp.watch(['./*.css'], ['css']);
+  gulp.watch(['./*.js'], ['js']);
+});
+
+gulp.task('default', ['connect', 'watch']);
