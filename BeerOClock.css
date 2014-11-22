@@ -80,9 +80,10 @@ body h1 {
 	body > footer > p {
 		background-color: black;
 		margin: 1px;
-		height: 38px;
+		height: 25px;
 		width: 1595px;
 		margin-bottom: 0px;
+		margin-top: -38px;
 	}
 	
 	body > div.button {
