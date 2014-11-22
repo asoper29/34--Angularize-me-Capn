@@ -83,7 +83,7 @@ body h1 {
 		height: 25px;
 		width: 1595px;
 		margin-bottom: 0px;
-		margin-top: -38px;
+		margin-top: 41px;
 	}
 	
 	body > div.button {
@@ -104,11 +104,11 @@ body h1 {
 
 	body > div.container > form > div:nth-child(2) > h2 {
 		margin-top: 8px;
-		margin-bottom: 0px;
+		margin-bottom: -18px;
 	}
 	
 	body > div.container > form > div:nth-child(1) > h2 {
-		margin-bottom: 0px;
+		margin-bottom: -15px;
 		margin-top: 0px;
 	}
 
