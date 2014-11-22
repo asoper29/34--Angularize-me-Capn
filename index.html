@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="beer">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container-fluid" ng-controller="MainCtrl as app">
+      <div class="beer">
+        <figure class="beerbot">
+          <img src="http://i.huffpost.com/gen/1313689/thumbs/o-BEER-CHEERS-facebook.jpg" id="beer" alt="Beer Mug">
+          <figcaption><h1>The Mighty BeerBot!</h1></figcaption>
+        </figure>
+        <form>
+          <fieldset class="form group">
+            <label for="type">Search By Name</label>
+            <button id="submit">SUBMIT</button>
+          </fieldset>
+          <blockquote ng-repeat="brewery in app.breweries">
+            <p>
+              {{brewery.name}}
+            </p>
+          </blockquote>
+        </form>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
