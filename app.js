@@ -1,9 +1,18 @@
 // Not Working Example
-$.getJSON("http://api.brewerydb.com/v2/search?key=27d182476dc1c9d1c248a6df37dff3cd&application/json=&q=abita&type=beer", function(response) {
-  $(response.breweries).each(function() {
-    $("#example").append($("<li>", { text : this.name }));
+
+
+
+
+  $.getJSON("http://api.openbeerdatabase.com/v1/beers.json?callback=?", function(response) {
+    $(response.beers).each(function() {
+      var id = Math.floor(Math.random() * (response.beers.length - 1) + 1);
+      console.log(response.beers[id].name);
+      $("#example").append($("<li>", {text: response.beers[id].name} ));
+    });
   });
-});
+
+
+$('#submit').click(searchBeer);
 
 // // Working Example
 // $.getJSON("http://api.openbeerdatabase.com/v1/breweries.json?callback=?", function(response) {
