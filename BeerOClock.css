@@ -131,7 +131,7 @@ body h1 {
 	    height: 100%;    
 	}
 
-	.image img {
+	.headerpic {
 	    -webkit-transition: all 1s ease; /* Safari and Chrome */
 	    -moz-transition: all 1s ease; /* Firefox */
 	    -ms-transition: all 1s ease; /* IE 9 */
