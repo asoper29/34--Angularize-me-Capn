@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKG,eAAI;EACF,WAAW,EAAE,KAAK;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;AAIjB,OAAG;EACD,WAAW,EAAE,yBAAyB;EACtC,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,IAAI",
+"sources": ["BeerOClock.scss"],
+"names": [],
+"file": "BeerOClock.css"
+}
