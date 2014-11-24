@@ -17,3 +17,12 @@ angular.module('34AngularizeMeCapn', [])
       $("#beerDesc").text(self.beerID.description);
     };
 });
+// .controller('MainCtrl',['$http', function($http){
+//   var profileInfo = this;
+//   profileInfo.data = [];
+//
+//   $http.get('http://api.openbeerdatabase.com/v1')
+//   .success(function(data){
+//     profileInfo.data = data;
+//   });
+// }]);

@@ -2,7 +2,7 @@
 <html class="no-js" ng-app="34AngularizeMeCapn">
   <head>
     <meta charset="utf-8">
-    <title>frontend</title>
+    <title>TEAM ROCKET!</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- build:css({.tmp,src}) styles/vendor.css -->
@@ -62,9 +62,35 @@
         <h3>Our recommendation:</h3>
         <section>
           <h3 id="beerName"></h3>
+          
           <label id="description" ng-click="show = !show">Describe it to me...</label>
           <p id="beerDesc" ng-show="show"></p>
+
         </section>
+          <a class="twitter-hashtag-button"
+          href="https://twitter.com/intent/tweet?button_hashtag=BeerMe"
+          data-related="twitter"
+          data-text="">
+          Tweet #BeerMe
+        </a>
+          <script type='text/javascript'>
+          window.twttr=(function(d,s,id){
+            var t,js,fjs=d.getElementsByTagName(s)[0];
+            if(d.getElementById(id)){
+              return
+            }
+            js=d.createElement(s);
+            js.id=id;
+            js.src="https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js,fjs);
+            return window.twttr||(t={
+              _e:[],ready:function(f){
+                t._e.push(f)
+              }
+            })
+          }(document,"script","twitter-wjs"));
+          </script>
+
       </div>
 
     </div>
