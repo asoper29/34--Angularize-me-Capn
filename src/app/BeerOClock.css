@@ -141,5 +141,8 @@ body h1 {
 	    -o-transform:scale(1.25); /* Opera */
 	     transform:scale(1.25);
 	}
+	#twitter-widget-0 {
+		margin-top: 20pt;
+	}
 
 /*# sourceMappingURL=BeerOClock.css.map */
